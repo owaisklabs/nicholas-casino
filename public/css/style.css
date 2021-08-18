@@ -1,0 +1,3165 @@
+    @font-face {
+        font-family: goboldregular;
+        src: url('../fonts/gobold/Gobold\ Regular.otf')
+    }
+    
+    @font-face {
+        font-family: impactregular;
+        src: url(../fonts/impact/impact.ttf)
+    }
+    
+    @font-face {
+        font-family: poppinsemibold;
+        src: url(../fonts/Poppins/Poppins-SemiBold.ttf)
+    }
+    
+    @font-face {
+        font-family: poppinbold;
+        src: url(../fonts/Poppins/Poppins-Bold.ttf)
+    }
+    
+    @font-face {
+        font-family: poppinregular;
+        src: url(../fonts/Poppins/Poppins-Regular.ttf)
+    }
+    
+    @font-face {
+        font-family: poppinlight;
+        src: url(../fonts/Poppins/Poppins-Light.ttf)
+    }
+    
+    @font-face {
+        font-family: poppinmedium;
+        src: url(../fonts/Poppins/Poppins-Medium.ttf)
+    }
+    
+    @font-face {
+        font-family: mantademo;
+        src: url('../fonts/manta_style/Manta\ Style\ Sans\ DEMO.ttf')
+    }
+    
+    body {
+        overflow-x: hidden;
+        margin: 0
+    }
+    
+    body .container-fluid {
+        padding: 0
+    }
+    
+    .mainBanner {
+        height: 100vh;
+        width: 100%;
+        background-size: cover
+    }
+    
+    .nav#navbar {
+        display: flex;
+        padding: 10px 50px;
+        padding-left: 50px!important;
+        transition: .5s all ease-in-out;
+        position: fixed;
+        width: 100%;
+        z-index: 9
+    }
+    
+    .nav#navbar .logo {
+        flex: 15%;
+        transition: .5s all ease-in-out
+    }
+    
+    .nav#navbar .logo img {
+        height: 100%;
+        width: 100%
+    }
+    
+    .nav#navbar ul {
+        flex: 85%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 30px 120px 0 50px
+    }
+    
+    #navbar ul li a {
+        text-decoration: none;
+    }
+    
+    #navbar ul li a.active,
+    #navbar ul li a:hover {
+        border-bottom: 2px solid #1b00ff;
+    }
+    
+    .nav#navbar .search {
+        flex: 20%;
+        padding-top: 33px
+    }
+    
+    .nav#navbar .search input {
+        background: 0 0;
+        border: 1px solid #fff;
+        padding: 5px;
+        outline: 0;
+        color: #fff;
+        width: 100%
+    }
+    
+    .nav#navbar ul li a {
+        color: #fff;
+        font-family: goboldregular;
+        text-transform: uppercase;
+        font-size: 18px
+    }
+    
+    .mainBarContent {
+        color: #fff;
+        font-family: impactregular;
+        font-size: 60px;
+        padding: 0 50px;
+        text-transform: uppercase;
+        word-spacing: 5px;
+        position: absolute;
+        top: 27%
+    }
+    
+    .aboutUsTxt button,
+    .contactMain button,
+    .forgotSec form button,
+    .loadmorebtn,
+    .loginMain button,
+    .mainBarContent button,
+    .signupMain button {
+        background-color: #0a0ae5;
+        border: none;
+        font-size: 14px;
+        font-family: poppinsemibold;
+        padding: 8px 30px;
+        color: #fff
+    }
+    
+    .mainBarContent p,
+    .mainBarContent p a {
+        font-size: 0
+    }
+    
+    .btnDiv {
+        font-size: 0;
+        margin-top: 30px;
+        margin-bottom: 20px
+    }
+    
+    .mainBarContent .success {
+        -webkit-text-stroke: 1.5px #fff;
+        color: transparent
+    }
+    
+    .secondSec {
+        padding: 0 50px;
+        margin-top: 50px
+    }
+    
+    .aboutUsHeading {
+        color: #fff;
+        font-size: 50px;
+        font-family: goboldregular;
+        margin-bottom: 50px;
+        text-transform: uppercase
+    }
+    
+    .secondSec .aboutUsTxt p {
+        color: #fff;
+        font-family: poppinregular
+    }
+    
+    .secondSec .aboutUsTxt {
+        padding: 0 20rem
+    }
+    
+    .secondSec .aboutUsTxt p:nth-child(1) {
+        margin-bottom: 25px
+    }
+    
+    .secondSec .aboutUsTxt p:nth-child(2) {
+        margin-bottom: 35px
+    }
+    
+    .statesHeading {
+        color: #fff;
+        font-size: 50px;
+        font-family: goboldregular;
+        margin-top: 70px;
+        text-transform: uppercase
+    }
+    
+    .kickersHeading {
+        font-family: mantademo;
+        color: #fff;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+    
+    .dflex {
+        display: flex
+    }
+    
+    .justify-space-between {
+        justify-content: space-between
+    }
+    
+    .owl-carousel .item .name {
+        color: #fff;
+        padding: 15px 0;
+        font-size: 22px;
+        font-family: poppinregular
+    }
+    
+    .owl-carousel .item .rating .dflex div {
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase
+    }
+    
+    .owl-carousel .item .rating .progress {
+        background-color: #494979;
+        border-radius: 0;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .owl-carousel .item .rating .gradeRating .gradey span:nth-child(1) {
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'poppinsemibold';
+    }
+    
+    .owl-carousel .item .rating .gradeRating .gradey span:nth-child(2) {
+        color: #d2cfcf;
+        padding-left: 5px;
+        font-family: 'poppinregular';
+        font-size: 12px;
+    }
+    
+    .owl-carousel .item .rating .gradeRating,
+    .owl-carousel .item .rating .gradeStars {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .owl-carousel .item .rating .gradeStars img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .owl-carousel .item .rating .gradeStars img.half {
+        width: 12px;
+    }
+    
+    .owl-carousel .item .rating .progress .progress-bar {
+        background-color: #0a0ae5
+    }
+    
+    .owl-carousel .item .img {
+        height: 462px;
+        overflow: hidden
+    }
+    
+    .owl-carousel .item .img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover
+    }
+    
+    .owl-theme .owl-nav {
+        display: flex;
+        justify-content: space-between;
+        font-size: 52px;
+        color: grey;
+        position: absolute;
+        width: 100%;
+        top: 33%
+    }
+    
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        background: 0 0!important;
+        color: #fff;
+        text-decoration: none
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev {
+        transform: translateX(-30px)
+    }
+    
+    .owl-carousel .owl-nav button.owl-next {
+        transform: translateX(30px)
+    }
+    
+    .newsArrHeading {
+        font-family: goboldregular;
+        color: #fff;
+        font-size: 44px;
+        margin-bottom: 50px;
+        text-transform: uppercase
+    }
+    
+    .owl-carousel .item .para {
+        font-family: poppinregular;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical
+    }
+    
+    .exposureMain {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        gap: 15rem;
+        width: 100%;
+        margin-bottom: 70px
+    }
+    
+    .Exposurebox {
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem
+    }
+    
+    .Exposurebox .icon img {
+        height: 56px
+    }
+    
+    .Exposurebox .icon {
+        margin-bottom: 6rem
+    }
+    
+    .Exposurebox .txt {
+        font-family: poppinsemibold;
+        color: #fff;
+        text-align: center;
+        line-height: 3rem
+    }
+    
+    .videoBanner {
+        overflow: hidden;
+        position: relative
+    }
+    
+    .videoBanner img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        transition: 1.5s all ease-in-out
+    }
+    
+    .videoBanner::after {
+        content: '';
+        background: url(../img/1x/play.png);
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: cover;
+        cursor: pointer
+    }
+    
+    .thanksmain {
+        display: flex;
+        justify-content: center
+    }
+    
+    .Thanksimages {
+        width: 50%;
+        display: flex;
+        gap: 3%;
+        justify-content: center;
+        flex-wrap: wrap
+    }
+    
+    .Thanksimages img {
+        margin-top: 30px
+    }
+    
+    .ThanksHeading {
+        font-family: goboldregular;
+        color: #fff;
+        font-size: 44px;
+        margin-bottom: 20px;
+        text-transform: uppercase
+    }
+    
+    .footer {
+        background-color: #0a0ae5;
+        padding-top: 20px
+    }
+    
+    .footer .contact,
+    .footer .links {
+        padding-top: 50px
+    }
+    
+    .footer .logo {
+        width: 154px;
+        margin-left: 15%
+    }
+    
+    .footer .logo a .flogo {
+        height: 100%;
+        width: 100%
+    }
+    
+    .footer h2 {
+        color: #fff;
+        font-family: poppinbold
+    }
+    
+    .footer .links ul {
+        list-style: none;
+        padding: 0
+    }
+    
+    .footer .links li a {
+        color: #fff;
+        font-family: goboldregular;
+        font-size: 16px
+    }
+    
+    .footer .links li {
+        margin-bottom: 5px
+    }
+    
+    .footer .address,
+    .footer .phone {
+        display: flex
+    }
+    
+    .footer .address .txt,
+    .footer .phone .txt {
+        color: #fff;
+        font-family: poppinregular;
+        margin-left: 15px
+    }
+    
+    .footer .email span:nth-child(1) {
+        color: #fff;
+        font-family: poppinsemibold
+    }
+    
+    .footer .email span:nth-child(3) {
+        color: #fff;
+        font-family: poppinregular
+    }
+    
+    .footer .website span:nth-child(1) {
+        color: #fff;
+        font-family: poppinsemibold
+    }
+    
+    .footer .website span:nth-child(3) {
+        color: #fff;
+        font-family: poppinregular
+    }
+    
+    .footer .txt {
+        margin-bottom: 10px
+    }
+    
+    .footer .email,
+    .footer .website {
+        padding-left: 33px
+    }
+    
+    .footer .contact h2 {
+        margin-bottom: 15px
+    }
+    
+    footer .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+    
+    footer .icons img {
+        height: 24px
+    }
+    
+    .copyright {
+        color: #fff;
+        font-family: poppinlight;
+        padding: 10px
+    }
+    
+    .mt-10 {
+        margin-top: 10px
+    }
+    
+    .mt-20 {
+        margin-top: 20px
+    }
+    
+    .mt-30 {
+        margin-top: 30px
+    }
+    
+    .mt-40 {
+        margin-top: 40px
+    }
+    
+    .mt-50 {
+        margin-top: 50px
+    }
+    
+    .mt-60 {
+        margin-top: 60px
+    }
+    
+    .mt-70 {
+        margin-top: 70px
+    }
+    
+    .mt-80 {
+        margin-top: 80px
+    }
+    
+    .mt-90 {
+        margin-top: 90px
+    }
+    
+    .mt-100 {
+        margin-top: 15rem
+    }
+    
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both
+    }
+    
+    .animated.infinite {
+        animation-iteration-count: infinite
+    }
+    
+    .animated.hinge {
+        animation-duration: 2s
+    }
+    
+    .animated.bounceIn,
+    .animated.bounceOut,
+    .animated.flipOutX,
+    .animated.flipOutY {
+        animation-duration: .75s
+    }
+    
+    .animated.flip {
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+        animation-name: flip
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .fadeInUp {
+        animation-name: fadeInUp
+    }
+    
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .fadeInDown {
+        animation-name: fadeInDown
+    }
+    
+    @keyframes bounceIn {
+        20%,
+        40%,
+        60%,
+        80%,
+        from,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+        0% {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3)
+        }
+        20% {
+            transform: scale3d(1.1, 1.1, 1.1)
+        }
+        40% {
+            transform: scale3d(.9, .9, .9)
+        }
+        60% {
+            opacity: 1;
+            transform: scale3d(1.03, 1.03, 1.03)
+        }
+        80% {
+            transform: scale3d(.97, .97, .97)
+        }
+        to {
+            opacity: 1;
+            transform: scale3d(1, 1, 1)
+        }
+    }
+    
+    .bounceIn {
+        animation-name: bounceIn
+    }
+    
+    @keyframes bounceInDown {
+        60%,
+        75%,
+        90%,
+        from,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -3000px, 0)
+        }
+        60% {
+            opacity: 1;
+            transform: translate3d(0, 25px, 0)
+        }
+        75% {
+            transform: translate3d(0, -10px, 0)
+        }
+        90% {
+            transform: translate3d(0, 5px, 0)
+        }
+        to {
+            transform: none
+        }
+    }
+    
+    .bounceInDown {
+        animation-name: bounceInDown
+    }
+    
+    @keyframes bounceInLeft {
+        60%,
+        75%,
+        90%,
+        from,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+        0% {
+            opacity: 0;
+            transform: translate3d(-3000px, 0, 0)
+        }
+        60% {
+            opacity: 1;
+            transform: translate3d(25px, 0, 0)
+        }
+        75% {
+            transform: translate3d(-10px, 0, 0)
+        }
+        90% {
+            transform: translate3d(5px, 0, 0)
+        }
+        to {
+            transform: none
+        }
+    }
+    
+    .bounceInLeft {
+        animation-name: bounceInLeft
+    }
+    
+    @keyframes bounceInRight {
+        60%,
+        75%,
+        90%,
+        from,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+        from {
+            opacity: 0;
+            transform: translate3d(3000px, 0, 0)
+        }
+        60% {
+            opacity: 1;
+            transform: translate3d(-25px, 0, 0)
+        }
+        75% {
+            transform: translate3d(10px, 0, 0)
+        }
+        90% {
+            transform: translate3d(-5px, 0, 0)
+        }
+        to {
+            transform: none
+        }
+    }
+    
+    .bounceInRight {
+        animation-name: bounceInRight
+    }
+    
+    @keyframes bounceInUp {
+        60%,
+        75%,
+        90%,
+        from,
+        to {
+            animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+        }
+        from {
+            opacity: 0;
+            transform: translate3d(0, 3000px, 0)
+        }
+        60% {
+            opacity: 1;
+            transform: translate3d(0, -20px, 0)
+        }
+        75% {
+            transform: translate3d(0, 10px, 0)
+        }
+        90% {
+            transform: translate3d(0, -5px, 0)
+        }
+        to {
+            transform: translate3d(0, 0, 0)
+        }
+    }
+    
+    .bounceInUp {
+        animation-name: bounceInUp
+    }
+    
+    @keyframes fadeInLeft {
+        from {
+            opacity: 0;
+            transform: translate3d(-100%, 0, 0)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .fadeInLeft {
+        animation-name: fadeInLeft
+    }
+    
+    @keyframes fadeInLeftBig {
+        from {
+            opacity: 0;
+            transform: translate3d(-2000px, 0, 0)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .fadeInLeftBig {
+        animation-name: fadeInLeftBig
+    }
+    
+    @keyframes lightSpeedIn {
+        from {
+            transform: translate3d(100%, 0, 0) skewX(-30deg);
+            opacity: 0
+        }
+        60% {
+            transform: skewX(20deg);
+            opacity: 1
+        }
+        80% {
+            transform: skewX(-5deg);
+            opacity: 1
+        }
+        to {
+            transform: none;
+            opacity: 1
+        }
+    }
+    
+    .lightSpeedIn {
+        animation-name: lightSpeedIn;
+        animation-timing-function: ease-out
+    }
+    
+    @keyframes fadeInRight {
+        from {
+            opacity: 0;
+            transform: translate3d(100%, 0, 0)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .fadeInRight {
+        animation-name: fadeInRight
+    }
+    
+    @keyframes fadeInRightBig {
+        from {
+            opacity: 0;
+            transform: translate3d(2000px, 0, 0)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .fadeInRightBig {
+        animation-name: fadeInRightBig
+    }
+    
+    @keyframes flip {
+        from {
+            transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+            animation-timing-function: ease-out
+        }
+        40% {
+            transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+            animation-timing-function: ease-out
+        }
+        50% {
+            transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+            animation-timing-function: ease-in
+        }
+        80% {
+            transform: perspective(400px) scale3d(.95, .95, .95);
+            animation-timing-function: ease-in
+        }
+        to {
+            transform: perspective(400px);
+            animation-timing-function: ease-in
+        }
+    }
+    
+    .flip {
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+        animation-name: flip
+    }
+    
+    @keyframes flipInX {
+        from {
+            transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+            animation-timing-function: ease-in;
+            opacity: 0
+        }
+        40% {
+            transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+            animation-timing-function: ease-in
+        }
+        60% {
+            transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+            opacity: 1
+        }
+        80% {
+            transform: perspective(400px) rotate3d(1, 0, 0, -5deg)
+        }
+        to {
+            transform: perspective(400px)
+        }
+    }
+    
+    .flipInX {
+        -webkit-backface-visibility: visible!important;
+        backface-visibility: visible!important;
+        animation-name: flipInX
+    }
+    
+    @keyframes flipInY {
+        from {
+            transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+            animation-timing-function: ease-in;
+            opacity: 0
+        }
+        40% {
+            transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+            animation-timing-function: ease-in
+        }
+        60% {
+            transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+            opacity: 1
+        }
+        80% {
+            transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+        }
+        to {
+            transform: perspective(400px)
+        }
+    }
+    
+    .flipInY {
+        -webkit-backface-visibility: visible!important;
+        backface-visibility: visible!important;
+        animation-name: flipInY
+    }
+    
+    @keyframes rotateIn {
+        from {
+            transform-origin: center;
+            transform: rotate3d(0, 0, 1, -200deg);
+            opacity: 0
+        }
+        to {
+            transform-origin: center;
+            transform: none;
+            opacity: 1
+        }
+    }
+    
+    .rotateIn {
+        animation-name: rotateIn
+    }
+    
+    @keyframes jackInTheBox {
+        from {
+            opacity: 0;
+            transform: scale(.1) rotate(30deg);
+            transform-origin: center bottom
+        }
+        50% {
+            transform: rotate(-10deg)
+        }
+        70% {
+            transform: rotate(3deg)
+        }
+        to {
+            opacity: 1;
+            transform: scale(1)
+        }
+    }
+    
+    .jackInTheBox {
+        animation-name: jackInTheBox
+    }
+    
+    @keyframes rollIn {
+        from {
+            opacity: 0;
+            transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+        }
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
+    
+    .rollIn {
+        animation-name: rollIn
+    }
+    
+    @keyframes rollOut {
+        from {
+            opacity: 1
+        }
+        to {
+            opacity: 0;
+            transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)
+        }
+    }
+    
+    .rollOut {
+        animation-name: rollOut
+    }
+    
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3)
+        }
+        50% {
+            opacity: 1
+        }
+    }
+    
+    .zoomIn {
+        animation-name: zoomIn
+    }
+    
+    @keyframes zoomInDown {
+        from {
+            opacity: 0;
+            transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+            animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+        }
+        60% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+            animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+        }
+    }
+    
+    .zoomInDown {
+        animation-name: zoomInDown
+    }
+    
+    @keyframes zoomInLeft {
+        from {
+            opacity: 0;
+            transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+            animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+        }
+        60% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+            animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+        }
+    }
+    
+    .zoomInLeft {
+        animation-name: zoomInLeft
+    }
+    
+    @keyframes zoomInRight {
+        from {
+            opacity: 0;
+            transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+            animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+        }
+        60% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+            animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+        }
+    }
+    
+    .zoomInRight {
+        animation-name: zoomInRight
+    }
+    
+    @keyframes zoomInUp {
+        from {
+            opacity: 0;
+            transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+            animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+        }
+        60% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+            animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+        }
+    }
+    
+    .zoomInUp {
+        animation-name: zoomInUp
+    }
+    
+    @keyframes zoomOut {
+        from {
+            opacity: 1
+        }
+        50% {
+            opacity: 0;
+            transform: scale3d(.3, .3, .3)
+        }
+        to {
+            opacity: 0
+        }
+    }
+    
+    .zoomOut {
+        animation-name: zoomOut
+    }
+    
+    @keyframes zoomOutDown {
+        40% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+            animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+        }
+        to {
+            opacity: 0;
+            transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+            transform-origin: center bottom;
+            animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+        }
+    }
+    
+    .zoomOutDown {
+        animation-name: zoomOutDown
+    }
+    
+    @keyframes zoomOutLeft {
+        40% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(42px, 0, 0)
+        }
+        to {
+            opacity: 0;
+            transform: scale(.1) translate3d(-2000px, 0, 0);
+            transform-origin: left center
+        }
+    }
+    
+    .zoomOutLeft {
+        animation-name: zoomOutLeft
+    }
+    
+    @keyframes zoomOutRight {
+        40% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0)
+        }
+        to {
+            opacity: 0;
+            transform: scale(.1) translate3d(2000px, 0, 0);
+            transform-origin: right center
+        }
+    }
+    
+    .zoomOutRight {
+        animation-name: zoomOutRight
+    }
+    
+    @keyframes zoomOutUp {
+        40% {
+            opacity: 1;
+            transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+            animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+        }
+        to {
+            opacity: 0;
+            transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+            transform-origin: center bottom;
+            animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+        }
+    }
+    
+    .zoomOutUp {
+        animation-name: zoomOutUp
+    }
+    
+    @keyframes slideInDown {
+        from {
+            transform: translate3d(0, -100%, 0);
+            visibility: visible
+        }
+        to {
+            transform: translate3d(0, 0, 0)
+        }
+    }
+    
+    .slideInDown {
+        animation-name: slideInDown
+    }
+    
+    @keyframes slideInLeft {
+        from {
+            transform: translate3d(-100%, 0, 0);
+            visibility: visible
+        }
+        to {
+            transform: translate3d(0, 0, 0)
+        }
+    }
+    
+    .slideInLeft {
+        animation-name: slideInLeft
+    }
+    
+    @keyframes slideInRight {
+        from {
+            transform: translate3d(100%, 0, 0);
+            visibility: visible
+        }
+        to {
+            transform: translate3d(0, 0, 0)
+        }
+    }
+    
+    .slideInRight {
+        animation-name: slideInRight
+    }
+    
+    @keyframes slideInUp {
+        from {
+            transform: translate3d(0, 100%, 0);
+            visibility: visible
+        }
+        to {
+            transform: translate3d(0, 0, 0)
+        }
+    }
+    
+    .slideInUp {
+        animation-name: slideInUp
+    }
+    
+    @keyframes slideOutDown {
+        from {
+            transform: translate3d(0, 0, 0)
+        }
+        to {
+            visibility: hidden;
+            transform: translate3d(0, 100%, 0)
+        }
+    }
+    
+    .slideOutDown {
+        animation-name: slideOutDown
+    }
+    
+    @keyframes slideOutLeft {
+        from {
+            transform: translate3d(0, 0, 0)
+        }
+        to {
+            visibility: hidden;
+            transform: translate3d(-100%, 0, 0)
+        }
+    }
+    
+    .slideOutLeft {
+        animation-name: slideOutLeft
+    }
+    
+    @keyframes slideOutRight {
+        from {
+            transform: translate3d(0, 0, 0)
+        }
+        to {
+            visibility: hidden;
+            transform: translate3d(100%, 0, 0)
+        }
+    }
+    
+    .slideOutRight {
+        animation-name: slideOutRight
+    }
+    
+    @keyframes slideOutUp {
+        from {
+            transform: translate3d(0, 0, 0)
+        }
+        to {
+            visibility: hidden;
+            transform: translate3d(0, -100%, 0)
+        }
+    }
+    
+    .slideOutUp {
+        animation-name: slideOutUp
+    }
+    
+    .videoBanner:hover img {
+        transform: scale(1.5)
+    }
+    
+    .sidebars {
+        display: none;
+        position: absolute;
+        right: 15px;
+        top: 15px
+    }
+    
+    #sideNav {
+        position: fixed;
+        right: 0;
+        height: 100vh;
+        background-color: #0000007a;
+        width: 100%;
+        z-index: 9;
+        top: 0
+    }
+    
+    .sidemenu {
+        height: 100%;
+        width: 250px;
+        background-color: #00005fcc;
+        float: right;
+        position: relative;
+        transition: 1s all ease-in-out
+    }
+    
+    .cross {
+        color: #fff;
+        font-weight: 700;
+        font-size: 28px;
+        position: absolute;
+        top: 0;
+        left: 10px
+    }
+    
+    .sidemenu .logo {
+        height: 95px;
+        margin-top: 30px
+    }
+    
+    .sidemenu .searchBar input {
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 5px;
+        outline: 0
+    }
+    
+    .sidemenu .searchBar {
+        padding: 0 20px;
+        margin-top: 20px
+    }
+    
+    .sidemenu .links ul {
+        list-style: none;
+        margin: 0;
+        padding: 20px 20px 0 20px
+    }
+    
+    .sidemenu .links ul li a {
+        color: #fff;
+        font-family: goboldregular;
+        text-transform: uppercase;
+        font-size: 18px
+    }
+    
+    .sidemenu .links ul li {
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px
+    }
+    
+    .sidemenu .links ul li::after {
+        content: '';
+        background-color: #fff;
+        height: 1px;
+        width: 50px;
+        position: absolute;
+        left: 40%;
+        top: 35px
+    }
+    
+    .loginMain {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden
+    }
+    
+    .loginMain .logo img {
+        width: 35%
+    }
+    
+    .loginMain h1 {
+        color: #fff;
+        font-family: impactregular
+    }
+    
+    .loginMain .useEmail {
+        color: #fff;
+        font-family: poppinregular
+    }
+    
+    .loginMain .nameInp input,
+    .signupMain form .NameInp input,
+    #SearchModal .NameInp input,
+    #SearchModal .NameInp select {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        color: #d3d3d3;
+        font-weight: 600;
+        outline: 0
+    }
+    
+    .loginMain .nameInp label a {
+        font-size: 11px;
+        color: #d3d3d3;
+        font-weight: 600;
+        padding-top: 5px
+    }
+    
+    .loginMain .orLine,
+    .signupMain .orLine {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #260dc2;
+        line-height: .1em;
+        margin: 10px 0 20px
+    }
+    
+    .loginMain .orLine span,
+    .signupMain .orLine span {
+        padding: 0 10px;
+        color: #fff;
+        font-family: poppinregular;
+        background-color: #000
+    }
+    
+    .loginMain button:nth-child(1) {
+        margin-top: 10px
+    }
+    
+    .loginMain .signupDin {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .loginMain.admin .signupDin {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .signupMain .signup {
+        margin-top: 17rem
+    }
+    
+    .signupMain .signup h1 {
+        font-family: impact;
+        color: #fff;
+        font-size: 50px;
+        text-transform: uppercase
+    }
+    
+    .signupMain form .form {
+        border: 2px solid #260dc2;
+        margin-top: 5rem
+    }
+    
+    .signupMain form .registerAccHere {
+        color: #fff;
+        font-family: poppinregular;
+        margin-bottom: 50px;
+        font-size: 18px
+    }
+    
+    .signupMain form .inps {
+        padding: 0 30rem
+    }
+    
+    .signupMain .paymentM,
+    .signupMain .subscription {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: impact;
+        font-size: 32px
+    }
+    
+    .signupMain .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        gap: 1rem;
+        width: 64%;
+        margin-left: 17%
+    }
+    
+    .signupMain .grid .gbox,
+    .subscriptionMain .grid .gbox {
+        background-color: #1a1a1a;
+        padding: 20px 10px;
+        height: 290px
+    }
+    
+    .signupMain .grid .gbox .month,
+    .subscriptionMain .grid .gbox .month {
+        color: #fff;
+        font-family: goboldregular;
+        text-transform: uppercase
+    }
+    
+    .signupMain .grid .gbox .price,
+    .subscriptionMain .grid .gbox .price {
+        font-family: poppinsemibold;
+        color: #fff;
+        font-size: 38px;
+        margin-top: 5rem
+    }
+    
+    .signupMain .grid .gbox .permonth,
+    .subscriptionMain .grid .gbox .permonth {
+        color: #fff;
+        font-family: mantademo;
+        font-size: 10px;
+        margin-top: 3rem
+    }
+    
+    .signupMain .grid .gbox .tryUs,
+    .subscriptionMain .grid .gbox .tryUs {
+        color: #fff;
+        font-family: mantademo;
+        font-size: 16px;
+        margin-top: 3rem;
+        line-height: 40px
+    }
+    
+    .signupMain .paymentDiv {
+        padding: 0 40px
+    }
+    
+    .signupMain .cardsImg {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+    
+    .signupMain .cardsImg img {
+        height: 28px;
+        margin-top: 20px
+    }
+    
+    .signupMain .orDivSignUp {
+        margin-top: 43px
+    }
+    
+    .signupMain .paypalDiv {
+        margin-top: 39px;
+        display: flex;
+        justify-content: center
+    }
+    
+    .signupMain form .NameInp input {
+        font-size: 18px
+    }
+    
+    .signupMain form .NameInp.exCvv input {
+        font-size: 12px
+    }
+    
+    .signupMain .submitBtn {
+        margin: 5rem 0 7rem 0
+    }
+    
+    .signupMain form select {
+        font-size: 18px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        color: #d3d3d3;
+        font-weight: 600;
+        outline: 0
+    }
+    
+    .forgotSec {
+        margin-top: 23rem
+    }
+    
+    .forgotSec h1 {
+        color: #fff;
+        font-family: impact;
+        font-size: 58px;
+        text-transform: uppercase;
+        text-align: center
+    }
+    
+    .forgotSec form {
+        border: 1px solid #0a0ae5;
+        padding: 10rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 74%;
+        margin-left: 13%
+    }
+    
+    .forgotSec form input {
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid #260dc2;
+        font-family: poppinregular;
+        color: #d3d3d3;
+        font-weight: 600;
+        outline: 0;
+        font-size: 16px;
+        padding: 10px
+    }
+    
+    .subscriptionMain {
+        border: 1px solid #260dc2;
+        width: 74%;
+        margin-left: 13%;
+        margin-top: 25rem;
+        padding: 5rem 10rem
+    }
+    
+    .subscriptionMain h1 {
+        color: #fff;
+        font-family: impact;
+        text-transform: uppercase;
+        font-size: 58px;
+        padding: 0 14rem
+    }
+    
+    .subscriptionMain .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        gap: 1rem;
+        width: 100%
+    }
+    
+    .hovblue {
+        background-color: #030344 !important
+    }
+    
+    .grid .gbox:hover {
+        background-color: #030344
+    }
+    
+    .profileMain {
+        margin-top: 22rem
+    }
+    
+    .profileMain .imgSec .image img {
+        width: 18%
+    }
+    
+    .profileMain .imgSec .name h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: poppinsemibold;
+        font-size: 40px
+    }
+    
+    .profileMain .imgSec .type h4 {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: poppinsemibold;
+        font-size: 18px;
+        margin-bottom: 5px
+    }
+    
+    .profileMain .imgSec .rating img {
+        width: 2%;
+        height: 2%;
+    }
+    
+    .profileMain .imgSec .rating img.half {
+        width: 1%
+    }
+    
+    .profileMain .imgSec .desc {
+        color: #fff;
+        font-family: poppinlight;
+        padding: 0 80px;
+        font-size: 16px
+    }
+    
+    .profileMain .infoSection {
+        background-color: #090330;
+        padding-bottom: 40px;
+        overflow: hidden
+    }
+    
+    .profileMain .infoSection .infoSecHeading {
+        color: #fff;
+        font-family: goboldregular;
+        font-size: 40px;
+        margin-bottom: 70px
+    }
+    
+    .profileMain .infoSection .infoSecHeading2 {
+        color: #fff;
+        font-family: goboldregular;
+        font-size: 40px;
+        margin-bottom: 30px
+    }
+    
+    .profileMain .infoSection .infoSecHeading2.starrate {
+        margin-bottom: 0;
+        font-family: poppinsemibold;
+        text-transform: uppercase;
+        font-size: 35px
+    }
+    
+    .profileMain .infoSection .infosHead a {
+        color: #fff;
+        font-family: poppinsemibold;
+        font-size: 16px;
+        text-decoration: none
+    }
+    
+    .profileMain .infoSection .infosLink a {
+        color: #b8b8b8;
+        font-family: poppinlight;
+        font-size: 16px;
+        text-decoration: none
+    }
+    
+    .profileMain .infoSection .infosDate a {
+        color: #b8b8b8;
+        font-family: poppinlight;
+        font-size: 12px;
+        text-decoration: none
+    }
+    
+    .profileMain .infoSection .infoRating {
+        color: #b8b8b8;
+        font-family: poppinlight;
+        font-size: 16px;
+        text-decoration: none;
+        height: 40px;
+        line-height: 40px
+    }
+    
+    .profileMain .infoSection .infoRating img {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .profileMain .infoSection .infoRating img.half {
+        width: 13px
+    }
+    
+    .profileMain .infoSection .infos {
+        padding: 0 12rem
+    }
+    
+    .profileMain .staeSec .jnone {
+        display: flex
+    }
+    
+    .profileMain .staeSec .jnone .left h5,
+    .profileMain .staeSec .jnone .left2 h5 {
+        font-family: poppinsemibold;
+        color: #fff;
+        font-size: 24px;
+        padding-left: 5rem;
+        text-align: left
+    }
+    
+    .profileMain .staeSec .jnone .left {
+        flex: 12%
+    }
+    
+    .profileMain .staeSec .jnone .right {
+        flex: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 14px
+    }
+    
+    .profileMain .staeSec .jnone .right .xforx,
+    .profileMain .staeSec .jnone .right2 {
+        font-family: poppinsemibold;
+        color: #cecece;
+        font-size: 16px;
+        width: 98%;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        row-gap: 1rem
+    }
+    
+    .profileMain .staeSec .jnone .right2 {
+        width: auto
+    }
+    
+    .profileMain .staeSec .jnone .right2 .xforchild {
+        display: flex;
+        align-items: center
+    }
+    
+    .profileMain .staeSec .jnone .right .xforx .xforchild u,
+    .profileMain .staeSec .jnone .right2 .xforchild u {
+        text-decoration: underline;
+        text-decoration-thickness: 2px
+    }
+    
+    .profileMain .staeSec .jnone .right .inpSec textarea {
+        resize: none;
+        background-color: transparent;
+        color: #fff;
+        font-family: poppinlight;
+        outline: 0;
+        border: 2px solid #fff;
+        font-size: 12px;
+        width: 100%
+    }
+    
+    .profileMain .staeSec .jnone .right .inpSec {
+        width: 70%
+    }
+    
+    .profileMain .txtArea textarea {
+        resize: none;
+        background-color: transparent;
+        color: #fff;
+        font-family: poppinlight;
+        outline: 0;
+        border: 2px solid #fff;
+        font-size: 12px;
+        width: 100%
+    }
+    
+    .profileMain .txtArea {
+        padding: 0 50px;
+        width: 65%
+    }
+    
+    .profileMain .hydlVideos h5 {
+        font-family: goboldregular;
+        color: #fff;
+        font-size: 34px;
+        text-transform: uppercase
+    }
+    
+    .profileMain .hydlVideos .owl-carousel .item .img {
+        /*height: 314px;*/
+        height: fit-content;
+        overflow: hidden
+    }
+    
+    .profileMain .hydlVideos .owl-carousel .item .name {
+        font-family: poppinmedium;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: left
+    }
+    
+    .profileMain .hydlVideos .carousalDiv {
+        padding: 0 30px
+    }
+    
+    .profileMain .staeSec .jnone .left2 h5 {
+        margin-right: 3rem
+    }
+    
+    .profileMain .staeSec .jnone .xforchild {
+        display: flex;
+        gap: 10px
+    }
+    
+    .kickersListMain h1 {
+        font-family: impactregular;
+        color: #fff;
+        font-size: 58px;
+        margin-top: 20rem;
+        text-transform: uppercase
+    }
+    
+    .kickersListMain .fthead {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0707ab
+    }
+    
+    .kickersListMain .ftbody div,
+    .kickersListMain .fthead div {
+        text-align: center;
+        font-family: poppinmedium;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        flex: 16.66666666666667%;
+        padding: 20px 0
+    }
+    
+    .kickersListMain .ftbody div a {
+        color: #fff;
+        text-decoration: none
+    }
+    
+    .kickersListMain .ftbody {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center
+    }
+    
+    .kickersListMain .ftbody:nth-child(even) {
+        background: #343fb8
+    }
+    
+    .kickersListMain .ftbody:nth-child(odd) {
+        background: #575fb5
+    }
+    
+    .articlesMain h1 {
+        font-family: impactregular;
+        color: #fff;
+        font-size: 58px;
+        margin-top: 20rem;
+        text-transform: uppercase
+    }
+    
+    .articlesMain .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        gap: 4rem;
+        width: 100%;
+        padding: 4rem
+    }
+    
+    .articlesMain .grid .grider .imgBox {
+        height: 440px;
+        width: 100%;
+        overflow: hidden
+    }
+    
+    .articlesMain .grid .grider .imgBox img {
+        object-fit: cover
+    }
+    
+    .articlesMain .grid .grider .txtBox {
+        color: #fff;
+        font-family: poppinregular;
+        font-size: 16px;
+        margin-top: 10px
+    }
+    
+    .contactMain h1 {
+        font-family: impactregular;
+        color: #fff;
+        font-size: 58px;
+        margin-top: 20rem;
+        text-transform: uppercase
+    }
+    
+    .contactMain form input,
+    .contactMain form textarea {
+        width: 100%;
+        background-color: transparent;
+        outline: 0;
+        border: none;
+        border: 1px solid #0a0ae5;
+        padding: 20px;
+        color: #fff;
+        font-family: poppinregular;
+        font-size: 16px;
+        resize: none
+    }
+    
+    .contactMain form {
+        padding: 0 10rem
+    }
+    
+    .aboutUsMain .banner {
+        height: 498px;
+        background: url(../img/1x/aboutus.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative
+    }
+    
+    .aboutUsMain .banner h1 {
+        font-family: impactregular;
+        color: #fff;
+        font-size: 58px;
+        text-transform: uppercase
+    }
+    
+    .aboutUsMain .banner div {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%
+    }
+    
+    .aboutUsMain .content {
+        padding: 0 10rem
+    }
+    
+    .aboutUsMain .content p {
+        color: #fff;
+        font-family: poppinregular;
+        font-size: 17px;
+        margin-bottom: 20px
+    }
+    
+    .aboutUsMain .content h5 {
+        color: #fff;
+        font-family: impactregular;
+        font-size: 24px;
+        text-transform: uppercase
+    }
+    
+    .aboutUsMain .content h2 {
+        color: #fff;
+        font-family: impactregular;
+        font-size: 58px;
+        text-transform: uppercase;
+        margin-bottom: 50px
+    }
+    
+    .aboutUsMain .content .bullets .col-lg-6 {
+        display: flex;
+        color: #fff;
+        font-family: poppinregular;
+        font-size: 20px
+    }
+    
+    .aboutUsMain .content .bullets .col-lg-6 div {
+        text-align: left
+    }
+    
+    .aboutUsMain .content .bullets .col-lg-6 img {
+        margin-right: 10px;
+        transform: translateY(5px)
+    }
+    
+    button a {
+        color: #fff
+    }
+    
+    button a:hover {
+        color: #fff
+    }
+    
+    .padding-x20 {
+        padding: 0 20px 0 20px
+    }
+    
+    .profileMain .staeSec .jnone .right .inpSec textarea::placeholder,
+    .profileMain .txtArea textarea::placeholder {
+        color: #f1f1f1;
+        opacity: .7
+    }
+    
+    .profileMain .staeSec .jnone .right .inpSec textarea:-ms-input-placeholder,
+    .profileMain .txtArea textarea:-ms-input-placeholder {
+        color: #f1f1f1;
+        opacity: .7
+    }
+    
+    .profileMain .staeSec .jnone .right .inpSec textarea::-ms-input-placeholder,
+    .profileMain .txtArea textarea::-ms-input-placeholder {
+        color: #f1f1f1;
+        opacity: .7
+    }
+    
+    .padding-x30 {
+        padding-left: 40px!important;
+        padding-right: 40px!important
+    }
+    
+    #myModal .modal-dialog {
+        height: 75vh;
+        width: 74%;
+    }
+    
+    #myModal .modal-content {
+        height: 100%;
+    }
+    
+    #myModal .modal-body {
+        height: 100%;
+        padding: 0px;
+        background-color: transparent;
+    }
+    
+    #myModal .modal-content button {
+        position: absolute;
+        color: white;
+        top: 0px;
+        z-index: 1;
+        background-color: transparent;
+        border: none;
+        right: 0px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .afterVideo {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        cursor: pointer;
+    }
+    
+    @media only screen and (max-width:1024px) {
+        #navbar {
+            display: none!important;
+        }
+        .adminNDB h1 {
+            margin-top: 10rem !important;
+        }
+        .sidebars {
+            display: block;
+            z-index: 9
+        }
+        .exposureMain {
+            gap: 1rem
+        }
+        .footer .logo {
+            width: 100%;
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center
+        }
+        .loginMain .signupDin {
+            top: 50%;
+            left: 50%
+        }
+        .signupMain .signup {
+            margin-top: 7rem
+        }
+        .signupMain form .inps {
+            padding: 0 20rem
+        }
+        .mainBarContent {
+            font-size: 12rem;
+            top: 33%
+        }
+        .mainBarContent button {
+            font-size: 4rem
+        }
+        .loginMain .row {
+            background-color: #000000ad;
+            height: 100vh
+        }
+        .subscriptionMain {
+            margin-top: 12rem
+        }
+        .profileMain {
+            margin-top: 7rem
+        }
+        .profileMain .imgSec .image img {
+            width: 20%
+        }
+        .profileMain .staeSec .jnone .left {
+            flex: 17%
+        }
+        .articlesMain h1,
+        .contactMain h1,
+        .kickersListMain h1 {
+            margin-top: 10rem
+        }
+        .articlesMain .grid .grider .imgBox {
+            height: 300px
+        }
+        .aboutUsMain .banner {
+            height: 358px
+        }
+        #myModal .modal-dialog {
+            height: 32vh;
+            width: 74%;
+        }
+        .fa.fa-search.forMobile {
+            display: block !important;
+        }
+        #SearchModal .selecType {
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        #SearchModal .selecType .chkboxes {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        .mainBarContent {
+            font-size: 9rem;
+            top: 32%
+        }
+        .forgotSec {
+            margin-top: 9rem
+        }
+        .subscriptionMain h1 {
+            padding: 0 0
+        }
+        .subscriptionMain {
+            width: 84%;
+            margin-left: 8%;
+            padding: 5rem 7rem
+        }
+        .profileMain .infoSection .infos {
+            padding: 0 6rem
+        }
+        .profileMain .staeSec .jnone .left {
+            flex: 24%
+        }
+        .articlesMain .grid {
+            grid-template-columns: repeat(2, 1fr)
+        }
+        .aboutUsMain .banner {
+            height: 269px
+        }
+        .aboutUsMain .banner h1 {
+            font-size: 48px
+        }
+    }
+    
+    @media only screen and (max-width:600px) {
+        .secondSec .aboutUsTxt {
+            padding: 0 2rem
+        }
+        .exposureMain {
+            grid-template-columns: repeat(1, 1fr)
+        }
+        .signupMain form .inps {
+            padding: 0 5rem
+        }
+        .signupMain .grid,
+        .subscriptionMain .grid {
+            grid-template-columns: repeat(2, 1fr)
+        }
+        .mainBarContent {
+            font-size: 8rem;
+            top: 29%
+        }
+        .mainBarContent button {
+            font-size: 3rem
+        }
+        .col-lg-4.col-md-4.col-sm-4 {
+            text-align: center
+        }
+        .profileMain .staeSec .jnone .left {
+            flex: 30%
+        }
+        .profileMain .staeSec .jnone .right .inpSec {
+            width: 85%
+        }
+        .profileMain .txtArea {
+            width: 78%
+        }
+        .starrate {
+            text-align: center
+        }
+        .jdays h2 {
+            text-align: left
+        }
+        .profileMain .imgSec .image img {
+            width: 28%
+        }
+        .articlesMain .grid {
+            grid-template-columns: repeat(1, 1fr)
+        }
+        .articlesMain .grid .grider .imgBox {
+            height: 545px
+        }
+        .contactMain form {
+            padding: 0 5rem
+        }
+        .aboutUsMain .banner {
+            height: 210px
+        }
+        .aboutUsMain .banner h1 {
+            font-size: 42px
+        }
+        .aboutUsMain .content {
+            padding: 0 7rem
+        }
+        #myModal .modal-dialog {
+            height: 75vh;
+            width: auto;
+        }
+    }
+    
+    @media only screen and (max-width:540px) {
+        .mainBarContent {
+            font-size: 44px;
+            top: 54%;
+            left: 43%;
+            transform: translate(-50%, -50%);
+            width: 100%
+        }
+        .mainBarContent button {
+            font-size: 2rem
+        }
+        .forgotSec form {
+            width: 91%;
+            margin-left: 5%
+        }
+        .subscriptionMain {
+            width: 90%;
+            margin-left: 5%;
+            padding: 5rem 2rem
+        }
+        .subscriptionMain h1 {
+            font-size: 50px
+        }
+        .profileMain .staeSec .jnone .left h5,
+        .profileMain .staeSec .jnone .left2 h5 {
+            padding-left: 2rem
+        }
+        .articlesMain .grid .grider .imgBox {
+            height: 483px
+        }
+        .aboutUsMain .banner {
+            height: 189px
+        }
+        .aboutUsMain .banner h1 {
+            font-size: 38px
+        }
+        .aboutUsMain .content {
+            padding: 0 6rem
+        }
+    }
+    
+    @media only screen and (max-width:414px) {
+        .signupMain .grid,
+        .subscriptionMain .grid {
+            grid-template-columns: repeat(1, 1fr)
+        }
+        .mainBarContent {
+            font-size: 44px;
+            top: 54%;
+            left: 43%;
+            transform: translate(-50%, -50%);
+            width: 100%
+        }
+        .mainBarContent button {
+            font-size: 2rem
+        }
+        .forgotSec form {
+            padding: 10rem 3rem
+        }
+        .profileMain .staeSec .jnone .left {
+            flex: 35%
+        }
+        .jnone .left2 {
+            flex: 75%
+        }
+        .profileMain .staeSec .jnone .right2 {
+            flex: 60%
+        }
+        .profileMain .txtArea {
+            width: 100%
+        }
+        .right2 .xforchild div {
+            width: 120px
+        }
+        .right2 .xforchild u {
+            flex: 10%
+        }
+        .profileMain .imgSec .image img {
+            width: 36%
+        }
+        .kickersListMain .ftbody div,
+        .kickersListMain .fthead div {
+            word-break: break-all
+        }
+        .articlesMain .grid .grider .imgBox {
+            height: auto
+        }
+        .articlesMain .grid .grider .imgBox img {
+            object-fit: contain
+        }
+        .contactMain form {
+            padding: 0 0
+        }
+        .aboutUsMain .banner {
+            height: 189px;
+            background-position: center
+        }
+        .aboutUsMain .banner h1 {
+            top: 66%
+        }
+        .aboutUsMain .content {
+            padding: 0 3rem
+        }
+    }
+    /* ammar */
+    
+    .adminNDB button:focus {
+        outline: none !important
+    }
+    
+    .adminNDB .bottomLine {
+        position: relative;
+    }
+    
+    .adminNDB .bottomLine::after {
+        position: absolute;
+        height: 1px;
+        width: 70%;
+        margin-left: 15%;
+        background-color: lightgrey;
+        bottom: -25px;
+        content: '';
+        left: 0;
+    }
+    /*profile*/
+    
+    .adminNDB .logo img {
+        width: 15%;
+        margin-top: 2rem;
+    }
+    
+    .adminNDB h1 {
+        color: black;
+        font-weight: 600;
+        margin-top: 4rem;
+        font-family: poppinbold;
+        text-transform: uppercase;
+        margin-top: 20rem;
+    }
+    
+    .adminNDB .fakeTabs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+        position: relative;
+    }
+    
+    .adminNDB .fakeTabs .item {
+        background-color: #0a0ae5;
+        color: white;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .adminNDB .fakeTabs::after {
+        content: '';
+        height: 10px;
+        width: 98%;
+        background-color: #0a0ae53d;
+        position: absolute;
+        top: 35%;
+        z-index: -1;
+        margin-left: 1%;
+    }
+    
+    .adminNDB .card {
+        border-radius: 4px;
+        padding: 20px;
+        box-shadow: 0 1px 9px rgb(0 0 0 / 10%), 0 1px 4px rgb(0 0 0 / 26%);
+    }
+    
+    .adminNDB .btnDiv {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .adminNDB .btnDiv button,
+    .adminNDB .saveBtn,
+    .adminNDB .btnReset {
+        background-color: #0a0ae5;
+        border: none;
+        font-size: 14px;
+        padding: 8px 30px;
+        color: #fff;
+    }
+    
+    .adminNDB .card h2 {
+        text-align: left;
+        margin: 0px;
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        font-family: poppinsemibold;
+        text-transform: capitalize;
+    }
+    
+    .adminNDB .mt1 {
+        margin-top: 1rem;
+    }
+    
+    .adminNDB .mt2 {
+        margin-top: 2rem;
+    }
+    
+    .adminNDB .mt3 {
+        margin-top: 3rem;
+    }
+    
+    .adminNDB .mt4 {
+        margin-top: 4rem;
+    }
+    
+    .adminNDB .mt5 {
+        margin-top: 5rem;
+    }
+    
+    .adminNDB .mt8 {
+        margin-top: 8rem;
+    }
+    
+    .adminNDB .card input:focus {
+        outline: none
+    }
+    
+    .adminNDB .card input,
+    .adminNDB .card select,
+    .adminNDB .modal-body input,
+    .adminNDB .modal-body select {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        height: 40px;
+        padding: 5px;
+        font-weight: 600;
+        outline: 0;
+        border-radius: 0px;
+        box-shadow: none;
+        width: 100%
+    }
+    
+    .adminNDB .card textarea {
+        resize: none;
+        border: none;
+        background-color: transparent;
+        border: 1px solid #260dc2;
+        font-weight: 600;
+        font-family: poppinregular;
+        outline: 0;
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 5px;
+        width: 100%
+    }
+    
+    .adminNDB .card .img-upload-btn {
+        position: relative;
+        overflow: hidden;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        border: none;
+        background: url(https://upload.wikimedia.org/wikipedia/commons/7/70/User_icon_BLACK-01.png);
+        background-size: cover;
+        border: 1px solid grey;
+        background-position-x: -14px;
+        cursor: pointer;
+    }
+    
+    .adminNDB .card .img-upload-btn input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+    
+    .adminNDB .card .img-upload-btn i {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        top: 50%;
+        left: 50%;
+        margin-top: -8px;
+        margin-left: -8px;
+    }
+    
+    .adminNDB .card .btn-radio {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .adminNDB .card .btn-radio input[type=radio] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+    
+    .adminNDB .card legend {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 21px;
+        line-height: inherit;
+        color: #000;
+        border: 0;
+        border-bottom: none;
+        text-align: left;
+    }
+    
+    .adminNDB .card .img-picker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .adminNDB .card .dflexi {
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    
+    .adminNDB .card img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .adminNDB .card .dflexi .btn-link {
+        position: absolute;
+        color: white;
+        background-color: #0a0ae5;
+        border-radius: 100%;
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 44%;
+        bottom: 0px;
+    }
+    
+    .adminNDB .fa.fa-star-half,
+    .adminNDB .fa.fa-star {
+        color: #0a0ae5;
+        font-size: 14px;
+    }
+    /*side tabs*/
+    
+    .adminNDB .nav-stacked .active a {
+        background-color: #0a0ae5 !important;
+        border-radius: 0px;
+    }
+    
+    .adminNDB .nav-stacked a {
+        font-family: poppinregular;
+        color: black;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    /*states*/
+    
+    .adminNDB .staeSec .jnone {
+        display: flex;
+    }
+    
+    .adminNDB .staeSec .jnone .left {
+        flex: 12%;
+    }
+    
+    .adminNDB .staeSec .jnone .right {
+        flex: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 14px;
+    }
+    
+    .adminNDB .staeSec .jnone .left h5,
+    .staeSec .jnone .left2 h5 {
+        font-family: poppinsemibold;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 14px;
+    }
+    
+    .adminNDB .staeSec .jnone .right .xforx,
+    .staeSec .jnone .right2 {
+        font-family: poppinsemibold;
+        font-size: 16px;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        row-gap: 1rem;
+    }
+    
+    .adminNDB .staeSec .jnone .right .inpSec {
+        width: 70%;
+    }
+    
+    .adminNDB .staeSec .jnone .xforchild {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    .adminNDB .staeSec .jnone .right .inpSec textarea {
+        resize: none;
+        background-color: transparent;
+        font-family: poppinlight;
+        outline: 0;
+        border: 2px solid #0a0ae5;
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .adminNDB .staeSec .mt-10 {
+        margin-top: 1rem;
+    }
+    
+    .adminNDB .staeSec .jnone .left2 h5 {
+        margin-right: 3rem;
+    }
+    
+    .adminNDB .xforchild input {
+        max-width: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #260dc2;
+        font-family: poppinregular;
+        height: 30px;
+        padding: 0px;
+        font-weight: 600;
+        outline: 0;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    /* Chrome, Safari, Edge, Opera */
+    
+    .adminNDB input::-webkit-outer-spin-button,
+    .adminNDB input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    
+    .adminNDB input[type=number] {
+        -moz-appearance: textfield;
+    }
+    
+    .adminNDB .txtArea textarea {
+        border: 2px solid #260dc2;
+    }
+    
+    .adminNDB .col-lg-12.dfl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .adminNDB #tab5 .col-lg-12.dfl span {
+        cursor: pointer;
+        visibility: hidden;
+        color: #8e8e8e;
+    }
+    /* #tab5 .col-lg-12.dfl:hover span{
+    cursor: pointer;
+    visibility: visible;
+    } */
+    
+    .adminNDB #tab6 .col-lg-12.dfl span,
+    .adminNDB #tab4 .col-lg-12.dfl span {
+        cursor: pointer;
+        color: #8e8e8e;
+    }
+    /* .videost{
+    overflow: scroll;
+    } */
+    
+    .adminNDB .videost table .img {
+        height: 113px;
+        width: 200px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    
+    .adminNDB .videost table .img img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .adminNDB .videost table td:last-child {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        /* height: 100%; */
+        padding-top: 15px;
+    }
+    
+    .adminNDB .mhed {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between
+    }
+    
+    .adminNDB .modal-title {
+        font-size: 20px;
+        color: black;
+        font-family: poppinmedium;
+    }
+    
+    .adminNDB #thumbnailInp {
+        display: none;
+    }
+    
+    .adminNDB .fakeInpthum {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        height: 40px;
+        padding: 5px;
+        font-weight: 600;
+    }
+    
+    .adminNDB #output {
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+    
+    .adminNDB .ratingInp {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* border-bottom: 1px solid; */
+        padding: 0px;
+        height: 40px;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        height: 40px;
+        padding: 5px;
+        font-weight: 600;
+    }
+    
+    @media only screen and (max-width:1024px) {
+        .adminNDB .logo img {
+            width: 30%;
+        }
+    }
+    
+    @media only screen and (max-width:600px) {
+        .adminNDB .staeSec .jnone .left {
+            flex: 20%;
+        }
+        .adminNDB .staeSec .jnone .right .inpSec {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:414px) {
+        .adminNDB .staeSec .jnone .left {
+            flex: 33%;
+        }
+        .adminNDB .smzp {
+            padding: 0px !important;
+        }
+        .adminNDB .staeSec .jnone .right2 {
+            flex: 30%;
+        }
+        .adminNDB .logo img {
+            width: 40%;
+        }
+    }
+    
+    .adminNDB .hudlSc {
+        overflow: scroll;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    
+    .adminNDB .hudlSc::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    
+    .adminNDB .hudlSc {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+    /* Ratings widget */
+    
+    .adminNDB .rate {
+        display: inline-block;
+        border: 0;
+    }
+    /* Hide radio */
+    
+    .adminNDB .rate>input {
+        display: none;
+    }
+    /* Order correctly by floating highest to the right */
+    
+    .adminNDB .rate>label {
+        float: right;
+        margin-left: 1px;
+    }
+    /* The star of the show */
+    
+    .adminNDB .rate>label:before {
+        display: inline-block;
+        font-size: 2.5rem;
+        padding: .3rem .2rem;
+        margin: 0;
+        cursor: pointer;
+        font-family: Font Awesome\ 5 Free;
+        content: "\f005 ";
+        /* full star */
+        /* color: #4746af; */
+    }
+    /* Zero stars rating */
+    
+    .adminNDB .rate>label:last-child:before {
+        content: "\f006 ";
+        /* empty star outline */
+    }
+    /* Half star trick */
+    
+    .adminNDB .rate .half:before {
+        content: "\f089 ";
+        /* half star no outline */
+        position: absolute;
+        padding-right: 0;
+    }
+    /* Click + hover color */
+    
+    .adminNDB input:checked~label,
+    /* color current and previous stars on checked */
+    
+    .adminNDB label:hover,
+    label:hover~label {
+        color: #0000ff;
+    }
+    /* color previous stars on hover */
+    /* Hover highlights */
+    /* .adminNDB input:checked + label:hover, input:checked ~ label:hover,
+.adminNDB input:checked ~ label:hover ~ label, 
+.adminNDB label:hover ~ input:checked ~ label  { color: #7a00ff;  } */
+    
+    .adminNDB .reserPass h2 {
+        text-align: center !important;
+    }
+    
+    .adminNDB .reserPass {
+        padding: 5rem 0;
+    }
+    
+    .adminNDB .subsCript {
+        display: flex;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        height: 40px;
+        padding: 5px;
+        font-weight: 600;
+        align-items: center;
+    }
+    
+    .adminNDB .subsCript label {
+        color: black;
+        margin: 0;
+        padding-right: 30px;
+    }
+    
+    .adminNDB .cnon {
+        visibility: hidden;
+    }
+    
+    .adminNDB label.clabel {
+        font-size: 16px;
+        float: left;
+        margin-bottom: 10px;
+        color: black;
+        font-family: 'poppinbold';
+        margin-top: 10px;
+    }
+    /* .adminNDB {
+	background-color: white;
+    } */
+    
+    .selecType {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #260dc2;
+        font-family: poppinregular;
+        color: #d3d3d3;
+        font-weight: 600;
+        outline: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .selecType .typeLabel {
+        font-size: 18px;
+    }
+    
+    .selecType .chkboxes {
+        display: flex;
+        column-gap: 3rem;
+        align-items: center;
+    }
+    
+    .selecType .chkboxes input {
+        transform: translateY(2px);
+    }
+    
+    .delIcon {
+        position: absolute;
+        background-color: #0a0ae5;
+        color: white;
+        z-index: 1;
+        padding: 12px 12px 10px 12px;
+        border-radius: 100%;
+        font-size: 20px;
+        bottom: 0;
+        right: 43%;
+        cursor: pointer;
+    }
+    
+    .fa-edit.delIcon {
+        display: none
+    }
+    
+    #tab5 .nav-tabs>li.active>a {
+        color: #0a0ae5;
+        cursor: default;
+        background-color: #fff;
+        border: 1px solid #0a0ae5;
+        border-bottom-color: transparent;
+        font-weight: 600;
+    }
+    
+    #tab5 .nav.nav-tabs li {
+        width: calc(100% / 6);
+    }
+    
+    #tab5 .nav.nav-tabs li:last-child {
+        width: 120px;
+    }
+    
+    #tab5 .nav.nav-tabs li:nth-child(3) {
+        width: 205px;
+    }
+    
+    #tab5 .staesTabs {
+        padding: 0 1rem;
+        margin-bottom: 5rem;
+    }
+    
+    #tab5 .nav-tabs {
+        border-bottom: 1px solid #0a0ae5;
+    }
+    
+    #tab5 .nav-tabs li a {
+        color: #000;
+        font-weight: 600;
+    }
+    
+    #tab5 .nav-tabs>li>a:hover {
+        border-color: #0a0ae5 #0a0ae5 #fff;
+        background-color: transparent;
+    }
+    
+    .avgRate {
+        font-family: poppinregular;
+        margin-top: 5px;
+    }
+    
+    .fa.fa-star.full_star {
+        color: lightgray;
+    }
+    
+    #SearchModal .modal-header {
+        background-color: #0a0ae5;
+        color: #fff;
+        font-family: impact;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #SearchModal .modal-header h3 {
+        flex: 50%;
+    }
+    
+    #SearchModal .selecType .typeLabel {
+        font-size: 18px;
+        color: #000000;
+    }
+    
+    #SearchModal .chkboxes label {
+        color: #737373;
+    }
+    
+    #SearchModal button {
+        background-color: #0a0ae5;
+        color: #fff;
+        font-family: impact;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px 30px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    
+    #SearchModal .NameInp select,
+    #SearchModal .NameInp input {
+        color: #000;
+    }
+    
+    .fa.fa-search {
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .fa.fa-search.forMobile {
+        display: none;
+    }
+    
+    .fa.fa-search.forMobile {
+        position: absolute;
+        top: 17px;
+        z-index: 1;
+        right: 60px;
+    }
+    
+    span.paypal-button-text {
+        display: none!important;
+    }
+    
+    .checkbox_save_profile {
+        margin-right: 18px!important;
+    }
